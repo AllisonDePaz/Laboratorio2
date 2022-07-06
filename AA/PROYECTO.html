@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Allison De Paz</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
+  <link rel="stylesheet" href="./W3.CSS Template_files/css">
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("./W3.CSS\ Template_files/PAPEL TAPÍZ-CARITAS COLORES.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1047.0" data-gr-ext-installed="">
+
+  <!-- Links (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="INICIO.html"
+          class="w3-button w3-block w3-black">INICIO</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="BITÁCORA.html"
+          class="w3-button w3-block w3-black">BITÁCORA</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="PROYECTO.html"
+          class="w3-button w3-block w3-black">PROYECTO</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="PORTAFOLIO.html"
+          class="w3-button w3-block w3-black">PORTAFOLIO</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header with image -->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-tag">Laboratorio de Innovación II</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white" style="font-size:90px">Allison<br>De Paz</span>
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+      <span class="w3-text-white">Toulouse Lautrec</span>
+    </div>
+  </header>
+
+  <!-- Add a background color and large text to the whole page -->
+  <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SOBRE EL PROYECTO</span></h5>
+        <p>¡HOLA! En esta sección explicaré a detalle el proyecto, por ejemplo sus materiales, cantidades, pasos y programación.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p><i>Veamos materiales y los pasos a seguir </i></p>
+          <p>https://youtu.be/C9DBhSzKuks?t=89</p>
+        </div>
+        <img src="./W3.CSS Template_files/DISPENSADOR.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    </div>
+
+    <!-- Menu Container -->
+    <div class="w3-container" id="menu">
+      <div class="w3-content" style="max-width:700px">
+
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DISPENSADOR DE ALIMENTO PARA MASCOTAS</span></h5>
+
+        <div class="w3-row w3-center w3-card w3-padding">
+          <a href="javascript:void(0)" onclick="openMenu(event, &#39;Eat&#39;);" id="myLink">
+            <div class="w3-col s6 tablink w3-dark-grey">IDEA Y MATERIALES</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, &#39;Drinks&#39;);">
+            <div class="w3-col s6 tablink">PASOS Y PROGRAMACIÓN</div>
+          </a>
+        </div>
+
+        <div id="Eat" class="w3-container menu w3-padding-48 w3-card" style="display: block;">
+          <h5>¿Para quién va dirigido?</h5>
+          <p class="w3-text-grey">Dirigido para jóvenes adultos que tienen mascotas en casa.</p><br>
+          <h5>Problemática</h5>
+          <p class="w3-text-grey">La importancia de nutrir adecuadamente a las mascotas. La mala nutrición en lasmascotas puede generar enfermedades que afectan su metabolismo y el desarrollo de sus huesos y órganos a una temprana edad, 
+            además de enfermedades como la: obesidad, problemas cardiovasculares, respiratorios.</p><br>
+          <h5>Objetivo General</h5>
+          <p class="w3-text-grey">Desarrollar un dispensador de comida para mascotas que sea automático y programable.</p><br>
+          <h5>Objetivo Específico</h5>
+          <p class="w3-text-grey">Realizar las especificaciones del sistema y diseñar la estructura mecánica y el control electrónico del dispensador automático. 
+            La alternativa de solución que se propone en este proyecto es la de un prototipo dedispensador de comida, electrónico y automático 
+            que se pueda tener en el hogar.</p><br>
+            <h5>Materiales:</h5>
+          <li> Transformador de 5V</li>
+          <li> Protoboard</li>
+          <li> Módulo de reloj</li>
+          <li> Cable USB AB</li>
+          <li> Servomotor</li>
+          <li> Arduino Uno</li>
+          <li> Cable dupont Macho-Hembra| Macho-Macho</li>
+          <li> Palitos de maqueta</li>
+          <li> Envase de plástico</li>
+        </div>
+
+        <div id="Drinks" class="w3-container menu w3-padding-48 w3-card" style="display: none;">
+
+        <h5>Pasos a seguir:</h5>
+        <li>Conectar SCL con A5</li>
+        <li>Conectar SDA con A4</li>
+        <li>Conectar CNO GND</li>
+        <li>Cable café a GND tierra</li>
+        <li>Cable naranja a PIN 9</li>
+        <li>Conectar Protoboard</li>
+        <li>Conectar VCC a Protoboard</li>
+        <li>Cable rojo a Protoboard</li>
+        <li>Conectar USB-AB</li>
+
+        <h5>Sistema operativo:</h5> 
+        <li>Descargar arduino editor</li>
+        <a href="https://www.arduino.cc/en/software" target="_blank">https://www.arduino.cc/en/software</a>
+        <li>Añadir librería DS3121</li>
+        <li>Copiar sincronizador</li>
+        <li>Pegar en editor arduino</li>
+        <li>Sincronizar hora</li>
+        <li>Copiar y pegar rotador</li>
+        <li>Configurar horas</li>
+        </div>
+        <img src="./W3.CSS Template_files/BBS.png" style="width:100%;max-width:1000px;margin-top:32px;">
+      </div>
+    </div>
+
+    <!-- Contact/Area Container -->
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACTO</span></h5>
+        <p><span class="w3-tag">¡Hola!</span> Para cualquier consulta no dudes en contactarte conmigo.</p>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nombre y apellido" required="" name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Día y horario"
+              required="" name="date" value="2022-04-19T20:00"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Asunto"
+              required="" name="Message"></p>
+          <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>BY<a href="https://www.instagram.com/allisondepaz_/?hl=es-la" title="INSTAGRAM" target="_blank"
+        class="w3-hover-text-green">ALLISON DE PAZ</a></p>
+  </footer>
+
+  <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+  </script>
+
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>

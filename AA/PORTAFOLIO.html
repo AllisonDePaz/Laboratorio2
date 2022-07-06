@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Allison De Paz</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
+  <link rel="stylesheet" href="./W3.CSS Template_files/css">
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("./W3.CSS\ Template_files/PAPEL TAPÍZ-PUNTOS CON FONDO COLORES.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1047.0" data-gr-ext-installed="">
+
+  <!-- Links (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="INICIO.html"
+          class="w3-button w3-block w3-black">INICIO</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="BITÁCORA.html"
+          class="w3-button w3-block w3-black">BITÁCORA</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="PROYECTO.html"
+          class="w3-button w3-block w3-black">PROYECTO</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="PORTAFOLIO.html"
+          class="w3-button w3-block w3-black">PORTAFOLIO</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header with image -->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-tag">Laboratorio de Innovación II</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white" style="font-size:90px">Allison<br>De Paz</span>
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+      <span class="w3-text-white">Toulouse Lautrec</span>
+    </div>
+  </header>
+
+  <!-- Add a background color and large text to the whole page -->
+  <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SOBRE MI PORTAFOLIO</span></h5>
+        <p>Estudiante de los últimos ciclos de la carrera Arquitectura de Interiores en el instituto Toulouse Lautrec.
+          Soy una persona proactiva, creativa y puntual, donde una de mis mayores fortalezas es el orden y la comunicación. 
+          Soy responsable y comprometida, lucho por mis ideales, teniedo un camino de errores y aprendizaje. Soy capaz de desarrollarme e ir 
+          aplicando mis habilidades de manera eficiente y competitiva tantosola como en equipo. Dispuesta a demostrar midesempeño en el cargo, aportando ideas y diseños innovadores.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p><i>Aquí podrás ver y descargar mi curriculum vitae junto con mis proyectos de los últimos talleres, . </i></p>
+          <a href="ALLISON DE PAZ_PORTAFOLIO.pdf" target="_blank"> PORTAFOLIO 2020-2022</a>
+
+        </div>
+        <img src="./W3.CSS Template_files/PORTAFOLIO INICIO.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+      </div>
+    </div>
+
+    <!-- Menu Container -->
+    <div class="w3-container" id="menu">
+      <div class="w3-content" style="max-width:700px">
+
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PORTAFOLIO</span></h5>
+
+        <div class="w3-row w3-center w3-card w3-padding">
+          <a href="javascript:void(0)" onclick="openMenu(event, &#39;Eat&#39;);" id="myLink">
+            <div class="w3-col s6 tablink w3-dark-grey">PROYECTOS DE 3° Y 4° CICLO</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, &#39;Drinks&#39;);">
+            <div class="w3-col s6 tablink">PROYECTOS DE 5° Y 6° CICLO</div>
+          </a>
+        </div>
+
+        <div id="Eat" class="w3-container menu w3-padding-48 w3-card" style="display: block;">
+          <h5>Casa en Miraflores para Carlos Alcántara-3° ciclo_2020</h5>
+          <p class="w3-text-grey">Diseñado bajo el concepto Peculiaridad hogareña pensado por suscaracterísticas personales, gustos y
+            hobbies, por ellos se diseñó un espacio cómodo, amplio, luminoso y funcional; donde el uso de mobiliarios robustos es una características del
+            estilo contemporáneo por el cual se opta por lucirlos.</p><br>
+
+            <h5>Casa de campo para Yirko Sivirich-4° ciclo_2021</h5>
+          <p class="w3-text-grey">El diseñador de modas Yirko Sivirich da a conocer el Perú y sus diversas culturas, a través de sus 
+            colecciones, por ello, sus diseños son muy famosos y reconocidos en todo el mundo, ya que contrasta lo diverso y
+            multicolor que es nuestro Perú, junto con lo clásico que es su estilo.</p><br>
+
+        </div>
+
+        <div id="Drinks" class="w3-container menu w3-padding-48 w3-card" style="display: none;">
+          <h5>Coworking "UNSCALED"-5° ciclo_2021</h5>
+          <p class="w3-text-grey">Diseñar un ¨Espacio de Trabajo Colaborativo ¨(COWORKING) que ofrezca un servicio de calidad con valor 
+            agregado, que permita a nuestros usuarios adaptarse a la ¨nueva normalidad ¨. El interiorismo será coherentecon el concepto y el 
+            estilo de referencia elegido. En ese sentido, el proyectopropone ambientes acogedores y dinámicos que generen una sensación deagradable permanencia.</p><br>
+
+            <h5>Diseño comercial para la marca Kylie Cosmetic-6° ciclo_2022</h5>
+          <p class="w3-text-grey">Kylie Jenner con su marca Kylie cosmetic da a conocer a las mujeres imponentes, creativas con un estilo 
+            delicado, por ello el diseño de la tienda tiene formas, texturas y colores sutiles donde se ve reflejado en cada espacio de la tienda.</p><br>
+
+          
+        </div>
+        <img src="./W3.CSS Template_files/r20.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+      </div>
+    </div>
+
+    <!-- Contact/Area Container -->
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACTO</span></h5>
+        <p><span class="w3-tag">¡Hola!</span> Para cualquier consulta no dudes en contactarte conmigo.</p>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nombre y apellido" required="" name="Name"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Día y horario"
+              required="" name="date" value="2022-04-19T20:00"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Asunto"
+              required="" name="Message"></p>
+          <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>BY<a href="https://www.instagram.com/allisondepaz_/?hl=es-la" title="INSTAGRAM" target="_blank"
+        class="w3-hover-text-green">ALLISON DE PAZ</a></p>
+  </footer>
+
+  <script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+  </script>
+
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
